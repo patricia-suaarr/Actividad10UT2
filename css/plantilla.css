@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+ }
+
+ body {
+ text-align: center;
+ }
+
+#titulo{
+    display: inline;	  
+    margin-left: 2%; vertical-align:bottom;
+    font-size:36px;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+ /* ************************* MENU AMBURGUESA *************************** */
+ nav input{display: none;}
+ nav label{display: none;}
+ @media screen and (max-width: 500px)
+ {
+ 
+
+nav label {
+  box-sizing: border-box;
+  display: inline-block; 
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+  margin: 12px;
+  
+}
+
+
+
+ 
+
+/*Estilo cuando el mouse pasa encima de cada link del menu*/
+li:hover {
+  filter: brightness(110%);
+
+
+/* ************************* MENU AMBURGUESA *************************** */  
+}
+ /* Responsive  /////////////////////////////////////////////////////////*/
+ }
+
+  
+  
+    #cabecera {
+    background: rgb(218, 76, 76);
+    border: 1px solid #999999;
+    padding: 20px;
+    }
+
+    #menu {
+    background: rgb(31, 136, 31);
+    padding: 10px 15px;
+    height: 30px;
+    }
+    
+    #menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana, sans-serif;
+    color: rgb(213, 255, 213);
+    border-color: rgb(213, 255, 213);
+    padding: 1px 10px 10px 10px;
+    transition: border-bottom 180ms;
+    cursor: pointer;
+ 
+    } 
+/* Estilo del boton cuando se pasa el mouse por encima*/
+ 
+nav label:hover{
+    background:  rgb(190, 238, 240);
+  }
+  .selected,
+  li:hover {
+    border-bottom: 7px solid #8ECAE6;
+    padding-bottom: 3px;
+  }
+
+/*   z-index: 4; */
+    
+  
+ article {
+    background: #fbfd80;
+    border: 1px solid #999999;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+#tabla{
+  width: 100%;
+  border: solid;
+  border-color: rgb(67, 177, 250);
+}
+th{
+  color: rgb(67, 177, 250);
+  text-decoration: underline;
+}
+footer{
+  margin: 20px;
+  text-align: left;
+}
+     
